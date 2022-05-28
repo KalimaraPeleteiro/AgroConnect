@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="shortcut icon" href="/static/images/shortcut_icon.png" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet">
+  
+    <link rel="stylesheet" href="/static/css/geral.css">
+    <link rel="stylesheet" href="/static/css/navbar.css">
+    <link rel="stylesheet" href="/static/css/criarPedidos.css">
+    <link rel="icon" type="image/png" href="/static/images/icons/favicon.ico"/>
+	  <link rel="stylesheet" type="text/css" href="/static/vendor/bootstrap/css/bootstrap.min.css">
+	  <link rel="stylesheet" type="text/css" href="/static/fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+	  <link rel="stylesheet" type="text/css" href="/static/vendor/animate/animate.css">
+	  <link rel="stylesheet" type="text/css" href="/static/vendor/css-hamburgers/hamburgers.min.css">
+	  <link rel="stylesheet" type="text/css" href="/static/vendor/select2/select2.min.css">
+	  <link rel="stylesheet" type="text/css" href="/static/css/util.css">
+	  <link rel="stylesheet" type="text/css" href="/static/css/main.css">
+    <title>AgroConnect | Criar Pedido</title>
+  </head>
+<body>
+  <nav>
+    <div class="menu-nav">
+      <div class="header-nav">
+        <img class="img-icone" src="/static/images/farm-logo.svg" >
+        <button onclick="clicou()"><img src="/static/images/menu.svg" alt="Icone do Menu"></button>
+      </div>
+      <div class="content-menu active">
+        <img src="/static/images/search.svg" alt="Icone de Pesquisa">
+        <p class="text-p">Buscar</p>
+      </div>
+      <div class="content-menu">
+        <img src="/static/images/grid.svg" alt="Icone de Dashboard">
+        <p class="text-p">Dashboard</p>
+      </div>
+      <div class="content-menu">
+        <a href="/dashboard"><img src="/static/images/request-quote.svg" alt="Icone de pedidos"></a>
+        <a href="/dashboard"  class="text-p">Meus pedidos</a>
+      </div>
+      <div class="content-menu">
+        <a href="/form"><img src="/static/images/shopping-cart.svg" alt="Icone de Carrinho de compras"></a>
+        <a href="/form" class="text-p">Criar pedido</a>
+      </div>
+      
+      <div class="content-menu">
+        <img src="/static/images/settings.svg" alt="Icone de Ajustes">
+        <p class="text-p">Ajustes</p>
+      </div>
+    </div>
+    <div class="footer-nav">
+      <div class="info-user">
+        <img src="/static/images/photo.jpg" alt="Foto do Usuário">
+        <div class="text-user">
+          <p>Davi Ribeiro</p>
+          <p>DEUS</p>
+        </div>
+      </div>
+      <a href="/leave"><img src="/static/images/log-out.svg" alt="Icone de Sair"></a>
+    </div>
+  </nav>
+
+  <main>
+    <div class="contact1">
+      <div class="container-contact1">
+        <div class="contact1-pic js-tilt" data-tilt>
+          <img src="/static/images/img-01.png" alt="IMG">
+        </div>
+  
+        <form action="/create" method="post" class="contact1-form validate-form">
+          <span class="contact1-form-title">
+            Crie seu Pedido
+          </span>
+  
+          <div class="wrap-input1 validate-input" data-validate = "Você precisa de um produto para completar o pedido!">
+            <input class="input1" type="text" name="product" placeholder="Produto">
+            <span class="shadow-input1"></span>
+          </div>
+  
+          <div class="wrap-input1 validate-input" data-validate = "Sem telefone, como iremos te contatar?">
+            <input class="input1" type="text" name="cellphone" placeholder="Telefone de Contato">
+            <span class="shadow-input1"></span>
+          </div>
+  
+          <div class="wrap-input1 validate-input" data-validate = "Você precisa pagar de alguma forma...">
+            <input class="input1" type="text" name="payment" placeholder="Meio de Pagamento">
+            <span class="shadow-input1"></span>
+          </div>
+  
+          <div class="wrap-input1 validate-input" data-validate = "Explique o seu pedido">
+            <textarea class="input1" name="message" placeholder="Descrição do Pedido"></textarea>
+            <span class="shadow-input1"></span>
+          </div>
+  
+          <div class="container-contact1-form-btn">
+            <button class="contact1-form-btn">
+              <span>
+                Enviar Pedido
+                <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+              </span>
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+  
+  </main>
+
+  <script src="/static/js/dashboard_script.js"></script>
+	<script src="/static/vendor/jquery/jquery-3.2.1.min.js"></script>
+    <script src="/static/vendor/bootstrap/js/popper.js"></script>
+    <script src="/static/vendor/bootstrap/js/bootstrap.min.js"></script>
+    <script src="/static/vendor/select2/select2.min.js"></script>
+    <script src="/static/vendor/tilt/tilt.jquery.min.js"></script>
+    <script >
+      $('.js-tilt').tilt({
+        scale: 1.1
+      })
+    </script>
+  
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-23581568-13"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+  
+    gtag('config', 'UA-23581568-13');
+  </script>
+  
+    <script src="/static/js/request_form.js"></script>
+  
+</body>

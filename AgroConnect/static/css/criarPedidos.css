@@ -1,0 +1,20 @@
+.container-criarPedidos {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  padding-top: 5vh;
+}
+
+
+
+label {
+  font-weight: bold;
+  font-size: .8rem;
+}
+
+input {
+  border-bottom: 2px solid #323232;
+  padding: 10px;
+  font-size: .9rem;
+  margin-bottom: 40px;
+}
