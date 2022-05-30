@@ -1,4 +1,8 @@
 /* Meus pedidos*/
+a{
+  color: rgb(79, 214, 97);
+}
+
 .container-pedidos {
   display: flex;
   flex-direction: column;
@@ -113,7 +117,17 @@
   flex-direction: column;
   font-size: 14px;
   font-weight: bold;
-  color: rgb(45, 194, 110);
+  color: rgb(36, 122, 74);
+}
+
+.status-pedido-propostas {
+  display: flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  flex-direction: column;
+  font-size: 14px;
+  font-weight: bold;
+  color: rgb(85, 168, 17);
 }
 
 .status-pedido-em-transito {

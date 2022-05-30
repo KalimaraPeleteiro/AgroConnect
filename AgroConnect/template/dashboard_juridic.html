@@ -22,14 +22,13 @@
         <button onclick="clicou()"><img src="/static/images/menu.svg" alt="Icone do Menu"></button>
       </div>
       <div class="content-menu active">
-        <a href="/dashboard"><img src="/static/images/request-quote.svg" alt="Icone de pedidos"></a>
-        <a href="/dashboard"  class="text-p">Meus pedidos</a>
+        <img src="/static/images/grid.svg" alt="Icone de Dashboard">
+        <p class="text-p">Dashboard</p>
       </div>
       <div class="content-menu">
-        <a href="/form"><img src="/static/images/shopping-cart.svg" alt="Icone de Carrinho de compras"></a>
-        <a href="/form" class="text-p">Criar pedido</a>
-      </div>
-      
+        <a href="/dashboard"><img src="/static/images/request-quote.svg" alt="Icone de pedidos"></a>
+        <a href="/dashboard"  class="text-p">Pedidos que estou Envolvido</a>
+      </div>      
       <div class="content-menu">
         <img src="/static/images/settings.svg" alt="Icone de Ajustes">
         <p class="text-p">Ajustes</p>
@@ -48,7 +47,7 @@
   </nav>
 
   <main>
-    <h1 class="h1-main">Meus Pedidos</h1>
+    <h1 class="h1-main">Todos os Pedidos</h1>
 
     <div class="container-pedidos">
         <div class="pedidos">
@@ -76,22 +75,6 @@
                       {{ request[0] }}
                    </div>
                 </div>
-
-                {% if request[3] == '1' %}
-                <div class="status">
-                  <div class="textStatus">STATUS</div>
-                  <div class="status-pedido-em-transito">Pendente</div>
-                </div>
-                {% endif %}
-
-
-                {% if request[3] == '2' %}
-                <div class="status">
-                  <div class="textStatus">STATUS</div>
-                  <div class="status-pedido-propostas">Propostas Disponíveis!</div>
-                </div>
-                {% endif %}
-
                 <div class="data">
                   <div class="textData">PRODUTO</div>
                   <div class="data-pedido">{{ request[1] }}</div>
@@ -101,6 +84,9 @@
                   <div class="tipo-pagamento">{{ request[2] }}</div>
                 </div>
 
+                <div class="detalhes-pedido">
+                 <div class="textDetalhes"><a href="/order/{{request[0]}}">Detalhes do Pedido</a></div>
+                </div>
               </div>
             </section>
           </div>
