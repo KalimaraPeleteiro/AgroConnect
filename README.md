@@ -6,7 +6,7 @@
 
 ### A Visão
 
-O Brasil é um dos agentes relevantes, no contexto mundial, a respeito da produção agrícola. Dentro do país, **a Bahia é um dos estados que mais crescem,  com aumentos anuais de produção na ordem de 30~40% nos últimos anos.** Mais precisamente, em 2020, o estado faturou R$ 27,5 bilhões em produtos agrícolas, um aumento de 42% em relação ao ano anterior. O maior município produtor da nação, São Desidério, gerando quase R$ 4 bilhões anualmente, está na Bahia. Em resumo, **todos os estudos apontam para um crescimento no mercado agropecuário, tanto no contexto nacional, quanto no baiano.**
+O Brasil é um dos agentes relevantes, no contexto mundial, a respeito da produção agrícola. Dentro do país, **a Bahia é um dos estados que mais crescem,  com aumentos anuais de produção na ordem de 30~40% nos últimos anos.** Mais precisamente, em 2020, o estado faturou 27,5 bilhões em produtos agrícolas, um aumento de 42% em relação ao ano anterior. O maior município produtor da nação, São Desidério, gerando quase R$ 4 bilhões anualmente, está na Bahia. Em resumo, **todos os estudos apontam para um crescimento no mercado agropecuário, tanto no contexto nacional, quanto no baiano.**
 
 O relevância do agronegócio, tanto para a nação quanto para o estado, é irrefutável. Aprofundando-se mais neste cenário, é possível distinguir outros elementos relevantes, que estão em crescimento ininterrupto. Nomeia-se tais elementos como “**agricultura familiar**” e “a **inserção da tecnologia no meio agrícola**”
 
