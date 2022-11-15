@@ -1,8 +1,11 @@
-# Descrição
+# AgroConnect
 
 *A AgroConnect nasceu de uma ideia: conectar, dentro do mundo do agronegócio, duas partes que buscam uma a outra, mas não se conhecem ainda. Produtores que buscam por clientes e consumidores que buscam pelo produto. Esses eram os alvos iniciais.*
 
 *A ideia evoluiu, adicionando a esse objetivo também outros elementos do agronegócio, como as distribuidoras e transportadoras. No mundo ideal, a AgroConnect seria uma plataforma de negociação de transporte de recursos e produtos, além da criação de contratos agrícolas, bem como um localizador dos agentes e empresas envolvidas no meio agrícola próximas ao usuário.*
+
+![1-1](https://user-images.githubusercontent.com/94702837/201917022-568fef25-f47d-49e4-b216-6373418e588f.png)
+
 
 ### A Visão
 
@@ -22,25 +25,35 @@ Por outro lado, com a crescente da tecnologia e a constante inserção de novos 
 
 Tal visão, vale ressaltar, irá demandar uma grande adesão por meio da comunidade agrícola, algo que não poderá ser fomentado sem muita publicidade, além de fortes relacionamentos e conexões com as empresas envolvidas. É por esse motivo que o objetivo final da AgroConnect, após a criação de seu produto, é a venda ou a criação de parceria da plataforma envolvendo uma companhia de grande influência e autoridade, talvez até mesmo o governo, onde nossos funcionários poderão continuar a trabalhar na plataforma sem se preocupar com tais coisas.
 
-### Os Serviços
+### Página Inicial
+![1-1](https://user-images.githubusercontent.com/94702837/201916858-736619b9-7a61-4f0c-b529-ac121d997c6a.png)
+<br></br>
+![1-2](https://user-images.githubusercontent.com/94702837/201916881-a28121dd-9087-4784-b701-f5d32c141cbb.png)
+<br></br>
+![1-3](https://user-images.githubusercontent.com/94702837/201916888-006e6cac-a1c3-4eae-8ba6-a969ecf60a89.png)
 
-Aprofundando-se no campo técnico e mais detalhista, quais seriam, de forma específica, os serviços (gratuitos) oferecidos pela AgroConnect?
+### Sistema de Cadastro e Login
+Em caso de novo registro, existem três planos fictícios, com os mais caros retornando acesso a mais serviços.
+<br></br>
+![2-1](https://user-images.githubusercontent.com/94702837/201917312-3ec5a92f-20a3-4d6c-af5f-889274ba169b.png)
+<br></br>
+![2-2](https://user-images.githubusercontent.com/94702837/201917321-27370e28-af88-4749-b485-9cb0a206fe7f.png)
+<br></br>
+![2-3](https://user-images.githubusercontent.com/94702837/201917397-fbf87c5f-dd65-4132-a9f3-3742ee8632f2.png)
 
-*(Nomes criados ao acaso, sujeitos a revisão)*
 
-- **AgroRequest:** A plataforma principal, onde, por um lado, quaisquer pessoas registradas como clientes na plataforma poderão demandar produtos agrícolas, como maçãs. Durante um determinado período de tempo, tal pedido será visível a todos registrados na plataforma como produtores ou distribuidores, podendo atender ao desejo da outra parte e concluir o negócio.
-- **AgroSupply:** Sua funcionalidade é semelhante a da AgroRequest, no entanto, é voltada para contratos longos, de mais de seis meses, geralmente envolvendo mais de uma empresa no processo. Exemplo: *[Loja A] necessita de uma certa quantidade de [Produto B], fornecido por [Produtor C], distribuído por [Empresa D], mensalmente.*
-- **AgroNetwork:** Funciona como um gigantesco banco de dados, aberto a quaisquer usuários da plataforma, que podem pesquisar por empresas e outros usuários registrados na plataforma, podendo levar a novas oportunidades de negócio. Cada empresa/usuário poderá caracterizar seu perfil com sua área de especialização e seu produto-alvo, como, por exemplo, uma distribuidora focada em distribuir cacau pela Bahia, facilitando assim a busca de qualquer usuário por seu alvo potencial.
-- **AgroZone, AgroRegion, Agro Location (Nome a definir):** Sistema que visa apoiar o comércio local, não só permitindo que novas lojas regionais entrem em contato com potenciais fornecedores e distribuidores, obtendo assim um fácil acesso a produtos frescos e de qualidade, como também fornece a potenciais usuários, um mapeamento de quais são as lojas mais próximas do mesmo com seus produtos e descrição.
-- **AgroContract, AgroAccord, AgroAgreement (Nome a definir):** Plataforma disponível para empresas agentes do meio agrícola, mas que não estão necessariamente envolvidas na produção de tais produtos. Exemplo: *[Empresa A], fornecendo uma certa quantidade de [Produto B] para [Distribuidora C] necessita de [Transportadora D] para enviar o produto.* Ou então algo como: *[Produtor A] necessita de [Empresa B] para realizar uma previsão estatística da sua região agrícola.*
+### Dashboard
+A depender se o usuário é físico ou jurídico, a dashboard é diferente. O usuário físico tem acesso aos seus pedidos emitidos, bem como o
+status de tais pedidos. Já o usuário jurídico pode percorrer todos os pedidos emitidos, escolhendo aceitá-los ou não.
+<br></br>
+![3-2](https://user-images.githubusercontent.com/94702837/201917721-2cdf45d8-3226-4920-91b6-1b097fa3cebd.png)
+<br></br>
+![3-3](https://user-images.githubusercontent.com/94702837/201917746-b95bf84f-72b4-46ac-a3b6-de956c78e50b.png)
 
-Todos os serviços citados acima são gratuitos. No entanto, caso quaisquer potenciais usuários da plataforma optem por uma **assinatura premium**, entregue mediante ao pagamento de um valor mensal (não definido), poderão desfrutar de certos benefícios, sendo um deles o maior tempo de permanência de seus pedidos em plataformas como a AgroRequest, antes que sejam deletados.
 
-### O Futuro
-
-*Possíveis expansões e ambições futuras*
-
-- **Aumentar o alcance da plataforma:** Simplesmente expandir. Para outros estados, países, continentes. Quanto mais, melhor!
-- **Plataforma de Desenvolvimento Tecnológico (AgroTech):** Sessão dentro da plataforma do AgroConnect onde empresas de inovação tecnológica agrícola poderão compartilhar seus novos produtos, divulgando-os para outras empresas (provavelmente a um certo custo). Além disso, poderia-se contratar uma equipe criativa, produzindo diariamente artigos sobre as principais inovações tecnológicas no agronegócio, disponíveis a todos os usuários.
-- **Plataforma de Transações Financeiras com Blockchain:** Criação de um possível sistema de blockchain para mediar as transações internas do site, tornando-se ainda mais ativo na participação dos contratos.
-- **Metaverso:** Algo dentro do Metaverso, para acompanhar esse mercado. Nada muito concreto definido, no entanto.
+### Funcionalidades
+Como mencionado é acima, é possível emitir pedidos (Usuários Físicos) e aceitar pedidos emitidos (Usuários Jurídicos).
+<br></br>
+![4-1](https://user-images.githubusercontent.com/94702837/201917876-f08d9e53-9126-4d41-b1cf-d4946c6bc549.png)
+<br></br>
+![4-2](https://user-images.githubusercontent.com/94702837/201917889-db06c2ac-30ec-4b21-9223-53b86a63378b.png)
