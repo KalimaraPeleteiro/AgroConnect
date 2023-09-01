@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multiple Login</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <main class="login-container">
+        <section class="login-usuario">
+            <div class="items-usuario">
+                <p class="login-text-usuario">Login do usuário</p>
+                <button class="button-usuario">Entrar como usuário</button>
+            </div>
+        </section>
+        <section class="login-corporativo">
+            <div class="items-corporativo">
+                <p class="login-text-corporativo">Login de Comporação</p>
+                <button class="button-corporativo">Entrar como Corporação</button>
+            </div>
+        </section>
+
+        <div class="form-container">
+            <form action="/validate" method="post">
+              <div class="title">
+                <img src="./images/log-in.svg" alt="login">
+                <h1>Faça seu login</h1>
+              </div>
+              <p>Entre com sua informações de cadastro.</p>
+              <div class="input-fields">
+                <div class="input-field">
+                  <label for="email">E-mail</label>
+                  <div class="input-wrapper">
+                    <span class="input-icon-mail"></span>
+                    <input type="email" name="email" id="email" placeholder="Digite seu email">
+                  </div>
+                </div>
+                <div class="input-field">
+                  <label for="password">Senha</label>
+                  <div class="input-wrapper">
+                    <span class="input-icon-password"></span>
+                    <input type="password" name="password" id="password" placeholder="Digite sua senha">
+                    <span class="input-icon-eye"></span>
+                  </div>
+                </div>
+                <div class="input-field">
+                  <input type="checkbox" name="remember" id="remember">
+                  <label for="remember">Lembre-me</label>
+                  <span><a href="#lost-password" class="
+                    links">Esqueci minha senha</a></span>
+                </div>
+              </div>
+              <button>Entrar</button>
+              <p>Não tem uma conta? <a href="/signup" class="
+                links">Registre-se</a></p>  
+            </form>
+          </div>
+
+    </main>
+    <script src="main.js"></script>
+</body>
+</html>
