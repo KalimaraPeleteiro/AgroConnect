@@ -11,23 +11,27 @@
         <section class="login-usuario">
             <div class="items-usuario">
                 <p class="login-text-usuario">Login do usuário</p>
-                <button class="button-usuario">Entrar como usuário</button>
+                <button class="button-usuario" id="button-usuario">Entrar como usuário</button>
             </div>
         </section>
         <section class="login-corporativo">
             <div class="items-corporativo">
                 <p class="login-text-corporativo">Login de Comporação</p>
-                <button class="button-corporativo">Entrar como Corporação</button>
+                <button class="button-corporativo" id="button-corporativo">Entrar como Corporação</button>
             </div>
         </section>
 
-        <div class="form-container">
-            <form action="/validate" method="post">
+        <div class="form-container" id="form-container">
+        
+            <form >
               <div class="title">
                 <img src="./images/log-in.svg" alt="login">
                 <h1>Faça seu login</h1>
               </div>
               <p>Entre com sua informações de cadastro.</p>
+              <button class="close-btn-form">
+              </button>
+
               <div class="input-fields">
                 <div class="input-field">
                   <label for="email">E-mail</label>
@@ -51,7 +55,7 @@
                     links">Esqueci minha senha</a></span>
                 </div>
               </div>
-              <button>Entrar</button>
+              <button id="button-form-entrar">Entrar</button>
               <p>Não tem uma conta? <a href="/signup" class="
                 links">Registre-se</a></p>  
             </form>

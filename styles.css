@@ -38,7 +38,7 @@ body {
     background-position: center;
     border-radius: 80px;
     justify-content: center;
-    margin-left: 35rem;
+    margin-left: 10rem;
 }
 
 .items-usuario {
@@ -143,16 +143,20 @@ body {
     --background: #4F9C60;
     --form-background: #1D6138;
     --primary-color: #ffc632;
+    --button-hover: #ffc700;
   }
   
   .form-container {
+    position: relative;
+    margin-left: 72px;
     width: 572px;
     height: 512px;
-    width: 100vh;
     padding: 55px 120px;
     background-color: var(--form-background);
     border-radius: 50px;
-    visibility: hidden;
+    display: none;
+    margin-right: 10rem;
+    margin-left: 10rem;
   }
   
   form .title {
@@ -180,6 +184,7 @@ body {
   .input-field {
     display: flex;
     flex-direction: column;
+    width: 21rem;
   }
   
   .input-field label {
@@ -334,7 +339,9 @@ body {
     border: none;
     text-transform: uppercase;
     margin-top: 20px;
+    cursor: pointer;
   }
+
   
   button+p {
     font-family: "Poppins", sans-serif;
@@ -355,4 +362,24 @@ body {
     text-align: center;
     color: var(--primary-color);
   }
+
+  .close-btn-form {
+    position: absolute;
+    top: 2px;  
+    right: 10px;
+    width: 34px;
+    height: 34px;
+    background-image: url(./images/close-button-form.svg);
+    background-color: #1D6138;
+    background-position: center;
+    background-size: cover;
+    border: none;  
+    cursor: pointer;
+}
+
  
+  .hidden {
+    opacity: 0;
+    max-height: 0;
+    overflow: hidden;
+}

@@ -1,26 +1,34 @@
-const userCard = document.getElementById('user-card');
-const companyCard = document.getElementById('company-card');
-const userForm = document.getElementById('user-form');
-const companyForm = document.getElementById('company-form');
 
-userCard.addEventListener('click', function() {
-    animateCard(userCard, () => {
-        userForm.style.display = 'block';
-        companyForm.style.display = 'none';
-    });
+const formContainerUser = document.getElementById('form-container');
+const loginCorporativo = document.querySelector('.login-corporativo');
+const loginUsuario = document.querySelector('.login-usuario');
+const container = document.querySelector('.login-container');
+const closeButtonForm = document.querySelector('.close-btn-form');
+const buttonFormEntrar = document.getElementById('button-form-entrar');
+
+document.getElementById('button-usuario').addEventListener('click', () => {
+    loginCorporativo.style.display = 'none'; 
+    loginUsuario.style.display = 'flex';
+    formContainerUser.style.display = 'flex'; 
+      // Move o form para depois do loginUsuario
+    container.insertBefore(formContainerUser, loginCorporativo);
 });
 
-companyCard.addEventListener('click', function() {
-    animateCard(companyCard, () => {
-        companyForm.style.display = 'block';
-        userForm.style.display = 'none';
-    });
+document.getElementById('button-corporativo').addEventListener('click', () => {
+    loginUsuario.style.display = 'none';
+    loginCorporativo.style.display = 'flex'; 
+    formContainerUser.style.display = 'flex'; 
+    // Move o form para antes do loginUsuario
+    container.insertBefore(formContainerUser, loginUsuario);
 });
 
-function animateCard(card, callback) {
-    card.style.transform = 'scale(1.2)';
-    setTimeout(() => {
-        card.style.transform = 'scale(1)';
-        callback();
-    }, 300);
+function fecharFormulario() {
+    formContainerUser.style.display = 'none';
+    loginUsuario.style.display = 'none';
+    loginCorporativo.style.display = 'none';
+    
+    container.appendChild(formContainerUser);
 }
+
+closeButtonForm.addEventListener('click', fecharFormulario);
+
