@@ -1,0 +1,385 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f2f2f2;
+    background-image: url(./images/background-login.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    justify-content: flex-start;
+}
+
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    max-width: 100vw;
+    overflow-x: hidden;
+    gap: 5rem;
+}
+
+.login-usuario {
+    display: flex;
+    min-width: 30rem;
+    height: 35rem;
+    background-image: url(./images/background-usuario.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 80px;
+    justify-content: center;
+    margin-left: 10rem;
+}
+
+.items-usuario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 17.5rem; 
+}
+
+.login-text-usuario {
+    color: #FFDE88;
+    margin-left: 25px;
+    font-family: Poppins;
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-bottom: 2rem;  
+    margin-top: 2.3125rem;
+}
+
+.button-usuario {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100px;
+    width: 20rem;
+    height: 5rem;
+    fill: #F5F5F5;
+    opacity: 0.91;
+    filter: drop-shadow(0px 5px 12.649999618530273px rgba(8, 5, 9, 0.71));
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.login-corporativo {
+    display: flex;
+    min-width: 30rem;
+    height: 35rem;
+    background-image: url(./images/background-corporativo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 80px;
+    justify-content: center;
+    margin-right: 10rem;
+}
+
+.items-corporativo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 17.5rem; 
+}
+
+.login-text-corporativo {
+    color: #FFDE88;
+    margin-left: 1.5625rem;
+    font-family: Poppins;
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-bottom: 2rem;  
+    margin-top: 2.3125rem;
+}
+
+.button-corporativo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100px;
+    width: 20rem;
+    height: 5rem;
+    fill: #F5F5F5;
+    opacity: 0.91;
+    filter: drop-shadow(0px 5px 12.649999618530273px rgba(8, 5, 9, 0.71));
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  #login-logo{
+    width: 18.75rem;
+    height: 6.25rem;
+    margin-left: 10%;
+    margin-top: 5%;
+  }
+  
+  :root {
+    --text-base: #afb6c2;
+    --text-title: #d4ccb6;
+    --background: #4F9C60;
+    --form-background: #1D6138;
+    --primary-color: #ffc632;
+    --button-hover: #ffc700;
+  }
+  
+  .form-container {
+    position: relative;
+    margin-left: 72px;
+    width: 35.75rem;
+    height: 32rem;
+    padding: 4rem 4rem;
+    background-color: var(--form-background);
+    border-radius: 50px;
+    display: none;
+    margin-right: 10rem;
+    margin-left: 10rem;
+  }
+  
+  form .title {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+  }
+  
+  form h1 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    color: var(--text-title);
+    line-height: 1.5rem;
+  }
+  
+  form .title+p {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    color: var(--text-base);
+    margin-bottom: 27px;
+    margin-top: 10px;
+    line-height: 1.5rem;
+  }
+  
+  .input-field {
+    display: flex;
+    flex-direction: column;
+    width: 21rem;
+  }
+  
+  .input-field label {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    color: var(--text-base);
+    line-height: 1.5rem;
+  }
+  
+  .input-wrapper {
+    position: relative;
+  }
+  
+  .input-icon-mail::before {
+    content: url(./assets/mail.svg);
+    display: block;
+    position: absolute;
+    top: 17px;
+    left: 10px;
+  }
+  
+  .input-icon-password::before {
+    content: url(./assets/lock.svg);
+    display: block;
+    position: absolute;
+    top: 17px;
+    left: 10px;
+  }
+  
+  .input-icon-eye {
+    content: url(./assets/eye.svg);
+    display: block;
+    position: absolute;
+    top: 17px;
+    right: 15px;
+  }
+  
+  .input-field:nth-child(1):focus-within .input-icon-mail::before {
+    content: url(./assets/mail-focus.svg);
+    display: block;
+    position: absolute;
+    top: 17px;
+    left: 10px;
+  }
+  
+  .input-field:nth-child(2):focus-within .input-icon-password::before {
+    content: url(./assets/lock-focus.svg);
+    display: block;
+    position: absolute;
+    top: 17px;
+    left: 10px;
+  }
+  
+  .input-wrapper input {
+    width: 100%;
+    height: 44px;
+    border: 1px solid #868686;
+    border-radius: 4px;
+    font-family: "Roboto", sans-serif;
+    font-size: 0.875rem;
+    font-weight: 400;
+    color: #A9AFB9;
+    background-color: var(--form-background);
+    padding: 0 35px;
+  }
+  
+  .input-field input:focus-within {
+    outline-color: var(--primary-color);
+  }
+  
+  .input-field:nth-child(1) {
+    margin-bottom: 20px;
+  }
+  
+  .input-field:nth-child(1) input,
+  .input-field:nth-child(2) input {
+    margin-top: 5px;
+  }
+  
+  .input-field:nth-child(3) {
+    flex-direction: row;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .input-field:nth-child(3) label {
+    font-family: "Roboto", sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #868686;
+    margin-left: 5px;
+    margin-right: auto;
+  }
+  
+  .input-field:nth-child(3) span a {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 0.875rem;
+    line-height: 1.3125rem;
+    color: var(--primary-color);
+  }
+  
+  .input-field:nth-child(3) {
+    position: relative;
+  }
+  
+  .input-field:nth-child(3) input {
+    position: absolute;
+    left: 10px;
+    opacity: 0;
+  }
+  
+  .input-field:nth-child(3) input:not(:checked)+label::before {
+    content: '';
+    display: block;
+    width: 20px;
+    height: 20px;
+    border: 1px solid #868686;
+    border-radius: 4px;
+  }
+  
+  .input-field:nth-child(3) input:checked+label::before {
+    content: url(./assets/check.svg);
+    display: block;
+    width: 20px;
+    height: 20px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    background-color: var(--primary-color);
+  }
+  
+  .input-field:nth-child(3) input:not(:checked)+label,
+  .input-field:nth-child(3) input:checked+label {
+    display: flex;
+  }
+  
+  .input-field:nth-child(3) input:not(:checked)+label::before,
+  .input-field:nth-child(3) input:checked+label::before {
+    margin-right: 10px;
+  }
+  
+  form button {
+    width: 100%;
+    padding: 12px 24px 12px 24px;
+    border-radius: 4px;
+    background-color: var(--primary-color);
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 1.125rem;
+    line-height: 1.6875rem;
+    color: #473404;
+    border: none;
+    text-transform: uppercase;
+    margin-top: 1.25rem;
+    cursor: pointer;
+  }
+
+  
+  button+p {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 0.875rem;
+    line-height: 1.3125rem;
+    margin-top: 0.9375rem;
+    text-align: center;
+    color: var(--primary-color);
+  }
+  
+  button+p a {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 0.875rem;
+    line-height: 1.3125rem;
+    margin-top: 0.9375rem;
+    text-align: center;
+    color: var(--primary-color);
+  }
+
+  .close-btn-form {
+    position: absolute;
+    top: 0.125rem;  
+    right: 0.625rem;
+    width: 2.125rem;
+    height: 2.125rem;
+    background-image: url(./images/close-button-form.svg);
+    background-color: #1D6138;
+    background-position: center;
+    background-size: cover;
+    border: none;  
+    cursor: pointer;
+}
+
+ 
+  .hidden {
+    opacity: 0;
+    max-height: 0;
+    overflow: hidden;
+}
